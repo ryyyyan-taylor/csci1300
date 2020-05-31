@@ -1,0 +1,37 @@
+        Book::Book(){
+            title = "";
+            author = "";
+        }
+        
+        Book::Book(string t, string a){
+            title = t;
+            author = a;
+        }
+        
+        Book::void setAuthor(string inAuthor){
+            author = inAuthor;
+        }
+        
+        Book::void setTitle(string inTitle){
+            title = inTitle;
+        }
+        
+        Book::string getAuthor(){
+            return author;
+        }
+        
+        Book::string getTitle(){
+            return title;
+        }
+        
+        
+        
+                Book(string t, string a);
+        
+        void setTitle(string inTitle);
+        
+        void setAuthor(string inAuthor);
+        
+        string getTitle();
+        
+        string getAuthor();
